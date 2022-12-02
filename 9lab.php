@@ -1,6 +1,7 @@
 <?php
-    $fh = fopen('laba9.txt','r'); 
-    while ($line = fgets($fh)) {    
+    $fh = fopen('laba9.txt','a+'); 
+    while ($line = fgets($fh)) { 
+        $line = "192.255.25.0";
     $tmp = explode("|", $line); 
 ?>
 <div>
